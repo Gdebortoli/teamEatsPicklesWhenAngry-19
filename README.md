@@ -2,7 +2,7 @@
 
 ## Description
 
-
+A text editor application that runs in a web browser. This will be a one page application that can also function offline 
 
 ### User Story
 
@@ -10,13 +10,13 @@
 
 ## Table of Contents
 
-- [Acceptance Criteria](#acceptance-criteria)
+- [Objectives](#objectives)
 - [Assets](#assets)
 - [Installation](#installation)
 - [Walkthrough Video](#walkthrough)
 - [Github Link](#github-link)
 
-## Acceptance Criteria
+## Objectives
 
 GIVEN a text editor web application
 
@@ -60,13 +60,6 @@ THEN I should have proper build scripts for a webpack application
 * run $ npm install in command line
 * run $ nodemon server to start the server 
 
-## Walkthrough Video
-
-* [Demo Video]()
-
-## Screenshots
-
-![]()
 
 ## Github Link
 
