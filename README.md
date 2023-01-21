@@ -13,7 +13,7 @@ A text editor application that runs in a web browser. This will be a one page ap
 - [Objectives](#objectives)
 - [Assets](#assets)
 - [Installation](#installation)
-- [Walkthrough Video](#walkthrough)
+- [Deplyment](#deployment)
 - [Github Link](#github-link)
 
 ## Objectives
