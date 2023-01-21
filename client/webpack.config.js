@@ -39,6 +39,7 @@ module.exports = () => {
       filename: '[name].bundle.js',
       path: path.resolve(__dirname, 'dist'),
     },
+    externals: [{ express: { commonjs: 'express' } }],
     plugins: [
       new webpack.ProvidePlugin({
         process: 'process/browser',
