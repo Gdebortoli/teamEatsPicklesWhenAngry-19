@@ -54,6 +54,10 @@ THEN I should have proper build scripts for a webpack application
 * Workbox
 * Babel
 
+## Screenshot
+
+![SC of homepage](./client/src/images/Screen%20Shot%202023-01-21%20at%202.08.54%20AM.png)
+
 ## Installation
 
 * Clone the repository
