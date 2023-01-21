@@ -64,6 +64,10 @@ THEN I should have proper build scripts for a webpack application
 * run $ npm install in command line
 * run $ nodemon server to start the server 
 
+## Deployment 
+
+[Heroku](https://teameatspickleswhenangry-19.herokuapp.com/)
+
 
 ## Github Link
 
