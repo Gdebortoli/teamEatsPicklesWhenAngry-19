@@ -1,3 +1,4 @@
+const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
 const path = require('path');
@@ -7,19 +8,26 @@ module.exports = () => {
   return {
     resolve: {
         fallback: {
-          "fs": false,
-          "tls": false,
-          "net": false,
-          "path": false,
-          "zlib": false,
-          "http": false,
-          "https": false,
-          "stream": false,
-          "crypto": false,
-          "url": false,
-          "util": false,
-          "querystring": false,
-          "async_hooks": false,
+            "assert": false,
+                "vm": false,
+                "os": false,
+                "tty": false,
+                "console": false,
+                "constants": false,
+                "fs": false,
+                "tls": false,
+                "net": false,
+                "path": false,
+                "zlib": false,
+                "http": false,
+                "https": false,
+                "stream": false,
+                "crypto": false,
+                "url": false,
+                "util": false,
+                "querystring": false,
+                "async_hooks": false,
+        "buffer": false
         } 
       },
     mode: 'development',
@@ -32,6 +40,9 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
+      new webpack.ProvidePlugin({
+        process: 'process/browser',
+      }),
       new HtmlWebpackPlugin({
         template: './index.html',
         title: 'J.A.T.E'
